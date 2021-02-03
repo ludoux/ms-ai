@@ -30,9 +30,9 @@ class NeuralNet(object):
 
 需要注意的是，不仅要对特征值做标准化（`NormalizeX`），也要对标签值做标准化（`NormalizeY`），最后出来结果的时候在对其做关于Y的反标准化即可。
 
-![image-20210203221057143](/home/luu/Documents/Code/python/ai-homework/README.assets/image-20210203221057143.png)
+![image-20210203221057143](README.assets/image-20210203221057143.png)
 
-![image-20210203221119675](/home/luu/Documents/Code/python/ai-homework/README.assets/image-20210203221119675.png)
+![image-20210203221119675](README.assets/image-20210203221119675.png)
 
 ```shell
 finalloss:9.975988786386684e-06
@@ -64,7 +64,7 @@ $$Z2 = A1 \cdot W2 + B2 \tag{3}$$
 
 $$A2 = Softmax(Z2) \tag{4}$$
 
-![image-20210203225210637](/home/luu/Documents/Code/python/ai-homework/README.assets/image-20210203225210637.png)
+![image-20210203225210637](README.assets/image-20210203225210637.png)
 
 ```shell
 ===输出===
